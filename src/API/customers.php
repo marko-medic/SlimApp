@@ -23,7 +23,11 @@ $app->get("/api/customers/{id}", function (Request $request, Response $response)
     $id = $request->getAttribute("id");
     try {
         $customer = $customerService->find($id);
-        echo json_encode($customer);
+        if (!$customer) {
+            echo '{"notice": "Customer not found"}';
+        } else {
+            echo json_encode($customer);
+        }
     } catch (Exception $ex) {
         echo '{"Error": '.$ex->getMessage().'}';
     }

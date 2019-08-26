@@ -6,16 +6,9 @@
  * Time: 1:57 PM
  */
 
-require "../src/config/DbConfig.php";
-require "../src/DAL/DbService/DbConnectionService.php";
-require "../src/DAL/DbService/DbService.php";
-require "../src/DAL/Repositories/CustomerDAL.php";
-require "../src/BLL/Service/CustomerService.php";
-require "../src/Shared/Models/Customer.php";
-
 class AppServices
 {
-    public $connectionString = "mysql:host=".DbConfig::dbHost.";dbname=".DbConfig::dbName;
+    public $connectionString = "mysql:host=".DbConfig::DBHOST.";dbname=".DbConfig::DBNAME;
 
     public function getCustomerService() {
         return new CustomerService(new CustomerDAL($this->getDbService()));

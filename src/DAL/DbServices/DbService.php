@@ -81,7 +81,7 @@ class DbService
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
         ];
         try {
-            $this->_conn = new PDO($this->_connectionService->getConnectionString(), DbConfig::userName, DbConfig::password, $options);
+            $this->_conn = new PDO($this->_connectionService->getConnectionString(), DbConfig::USERNAME, DbConfig::PASSWORD, $options);
         } catch (PDOException $exception) {
             die("Connection failed: " . $exception->getMessage());
         }

@@ -12,7 +12,7 @@ class CustomerDAL
     public function __construct(DbService $dbService)
     {
         if (empty($dbService)) {
-            throw new InvalidArgumentException("DbService cannot be empty");
+            throw new InvalidArgumentException("DbServices cannot be empty");
         }
         $this->_dbService = $dbService;
     }
