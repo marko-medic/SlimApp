@@ -10,7 +10,7 @@ return array(
     'Customer' => $baseDir . '/src/Shared/Models/Customer.php',
     'CustomerDAL' => $baseDir . '/src/DAL/Repositories/CustomerDAL.php',
     'CustomerService' => $baseDir . '/src/BLL/Services/CustomerService.php',
-    'DbConfig' => $baseDir . '/src/Config/DbConfig.php',
+    'DbConfig' => $baseDir . '/src/Shared/Config/DbConfig.php',
     'DbConnectionService' => $baseDir . '/src/DAL/DbServices/DbConnectionService.php',
     'DbService' => $baseDir . '/src/DAL/DbServices/DbService.php',
     'FastRoute\\BadRouteException' => $vendorDir . '/nikic/fast-route/src/BadRouteException.php',

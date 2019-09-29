@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e6bf8ea-716f-4940-97bb-06a7a1939325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/customers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/customers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/AppServices/AppServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/AppServices/AppServices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BLL/Service/CustomerService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BLL/Services/CustomerService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAL/DbService/DbConnectionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/DbServices/DbConnectionService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAL/DbService/DbService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/DbServices/DbService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/DbConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shared/Config/DbConfig.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAL/Repositories/CustomerDAL.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAL/Repositories/CustomerDAL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/DbConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/DbConfig.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -25,7 +18,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -34,7 +27,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/PL" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,30 +89,26 @@
               <item name="slimapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="slimapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="slimapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PL" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kosnice_cone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\slimapp\src\Shared" />
       <recent name="D:\xampp\htdocs\slimapp\src" />
       <recent name="D:\xampp\htdocs\slimapp\src\DAL" />
       <recent name="D:\xampp\htdocs\slimapp\src\DAL\Repository" />
       <recent name="D:\xampp\htdocs\slimapp\src\BLL\Services" />
-      <recent name="D:\xampp\htdocs\slimapp\src\BLL\CustomerBLL" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -149,16 +137,18 @@
       <workItem from="1566816580414" duration="988000" />
       <workItem from="1566817711745" duration="7568000" />
       <workItem from="1566826348446" duration="1999000" />
+      <workItem from="1567529316745" duration="31000" />
+      <workItem from="1569787504649" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11795000" />
+    <option name="totallyTimeSpent" value="12284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122492835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12535816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,13 +173,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Shared/Models/Customer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -201,51 +184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/customers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#7#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAL/DbServices/DbConnectionService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BLL/AppServices/AppServices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BLL/Services/CustomerService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAL/DbServices/DbService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="83" column="123" selection-start-line="83" selection-start-column="123" selection-end-line="83" selection-end-column="123" />
         </state>
       </provider>
     </entry>
@@ -261,7 +199,7 @@
         <state relative-caret-position="-1584" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Config/DbConfig.php">
+    <entry file="file://$PROJECT_DIR$/src/Shared/Config/DbConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="2" selection-end-column="5" />
@@ -287,6 +225,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API/customers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1306">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="e#7#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/Services/CustomerService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/AppServices/AppServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/DbServices/DbService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="83" column="93" selection-start-line="83" selection-start-column="85" selection-end-line="83" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/DbServices/DbConnectionService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>

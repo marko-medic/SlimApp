@@ -68,7 +68,7 @@ class ComposerStaticInit2390b1d7c76e83feeb776054afbb8ce6
         'Customer' => __DIR__ . '/../..' . '/src/Shared/Models/Customer.php',
         'CustomerDAL' => __DIR__ . '/../..' . '/src/DAL/Repositories/CustomerDAL.php',
         'CustomerService' => __DIR__ . '/../..' . '/src/BLL/Services/CustomerService.php',
-        'DbConfig' => __DIR__ . '/../..' . '/src/Config/DbConfig.php',
+        'DbConfig' => __DIR__ . '/../..' . '/src/Shared/Config/DbConfig.php',
         'DbConnectionService' => __DIR__ . '/../..' . '/src/DAL/DbServices/DbConnectionService.php',
         'DbService' => __DIR__ . '/../..' . '/src/DAL/DbServices/DbService.php',
         'FastRoute\\BadRouteException' => __DIR__ . '/..' . '/nikic/fast-route/src/BadRouteException.php',

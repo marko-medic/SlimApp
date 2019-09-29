@@ -9,6 +9,7 @@
 class CustomerDAL
 {
     private $_dbService;
+	
     public function __construct(DbService $dbService)
     {
         if (empty($dbService)) {
